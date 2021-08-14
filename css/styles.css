@@ -44,6 +44,11 @@ body {
     background-color: var(--primery-white-color)
 }
 
+.list {
+    margin: 0;
+    padding: 0;
+}
+
 .accent {
     color: var(--primery-text-color);
     
@@ -110,22 +115,40 @@ ul {
     color: #2196F3;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    /* outline: 2px solid tomato; */
+}
+
 /* первая секция hero */
 
+.hero {
+    margin: 0;
+    text-align: center;
+    background-color: #2F303A;;
+}
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: #ffffff;
     font-size: 44px;
+    /* text-align: center; */
 }
 
 .background-hero {
-   background-color: #2F303A;
+    background-color: #2F303A;
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .background-footer {
@@ -147,12 +170,19 @@ ul {
 /* чем мы занимаемся */
 
 .section-title {
+    margin: 0;  
+    padding: 0;
     color: var(--primery-text-color);
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+}
+
+.feature-list {
+    margin: 0;
+    padding: 0;
 }
 
 .feature-list .title {
@@ -161,24 +191,31 @@ ul {
 
 
 /* button */
+/* .hero  */
 
-.hero .button {
-    color: var(--primery-white-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
+.button {
+    display: inline-block;
+    min-width: 200px;
+    border-radius: 4px;
+    border: 1px solid transparent;
 
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
     letter-spacing: 0.06em;
     padding: 10px 32px;
+    /* text-align: center; */
+
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /* наши возможности */
 
 .title {
+    margin: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -187,19 +224,39 @@ ul {
 }
 
 .text {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
 
 .section-title {
+    padding-top: 95px;
+    margin-bottom: 95px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
 
+.work {
+    margin-bottom: 50px;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+}
+
+.photo {
+    margin-bottom: 30px;
+}
+
 .name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
     color: var(--primery-text-color);
     
     font-weight: 500;
@@ -208,6 +265,8 @@ ul {
 }
 
 .profession {
+    margin: 0;
+    padding: 0;
     color: var(--title-text-color);
 
     font-size: 16px;
