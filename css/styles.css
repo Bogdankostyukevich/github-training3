@@ -13,10 +13,11 @@
 
 /* CSS-переменные */
 :root {
-    --primery-text-color:#212121;
-    --title-text-color: #757575;
+    --primery-text-color: #212121;
+    --title-text-color:  #757575;
     --accent-color: #2196F3;
     --primery-white-color: #ffffff;
+    --section-command-bc: #F5F4FA;
 }
 
 /* index.html */
@@ -75,8 +76,8 @@ ul {
 
 .site-nav .link {
     color: var(--primery-text-color);
-    /* убрали нижнее подчеркивание */
     text-decoration: none;
+    /* убрали нижнее подчеркивание */
 
     font-weight: 500;
     font-size: 14px;
@@ -143,6 +144,8 @@ ul {
     margin: 0;
     margin-bottom: 30px;
 }
+
+/* button */
 
 .button {
     color: var(--primery-white-color);
@@ -230,14 +233,18 @@ ul {
     text-align: center;
 }
 
+.section-command {
+    background-color: var(--section-command-bc)
+}
+
+.section-command .work {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
 .feature-list .title {
     color: var(--primery-text-color);
 }
-
-
-/* button */
-
-
 
 /* наши возможности */
 
