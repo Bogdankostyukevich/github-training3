@@ -42,8 +42,8 @@ ul {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
-    outline: 2px solid tomato;
+    width: 1600px;
+    /* outline: 2px solid tomato; */
 }
 
 .logo {
@@ -118,6 +118,14 @@ ul {
     background-color: #E5E5E5;
 }
 
+.list {
+    margin-bottom: 34px;
+}
+
+.element {
+    /* margin-bottom: 8px; */
+}
+
 .title {
     color: var(--primery-text-color);
     font-size: 18px;
@@ -189,6 +197,14 @@ ul {
 
 /* основной контент */
 
+.card {
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
 h1,
 h2,
 p {
@@ -214,6 +230,8 @@ p {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+
+    margin-bottom: 4px;
 }
 
 .project {
@@ -230,11 +248,21 @@ p {
 
 .bf-portfolio {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+}
+
+.margin {
+    margin-bottom: 20px;
 }
 
 .accent-footer {
     color: var(--primery-white-color);
+    /* margin-bottom: 20px; */
 }
+
+
 
 .authnav-portfolio .contacts-link {
     color: rgba(255, 255, 255, 0.6);
@@ -254,9 +282,15 @@ p {
 
     font-size: 14px;
     line-height: 1.7;
+
+    margin-bottom: 9px;
 }
 
 .link {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
+}
+
+.mail {
+    margin-bottom: 9px;
 }
