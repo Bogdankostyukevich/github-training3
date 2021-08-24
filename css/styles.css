@@ -221,14 +221,30 @@ ul {
     background-color: #E5E5E5;
 }
 
-.section-title {
-    margin: 0;
-    padding: 0;
-    padding-top: 94px;
-}
+
 
 .feature-list {
+    display: flex;
+    flex-wrap: wrap;
+
     padding-bottom: 94px;
+}
+
+.feature-list .title {
+    color: var(--primery-text-color);
+}
+
+.feature-list .item {
+    background-color: orange;
+    width: 300px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .title {
@@ -242,17 +258,80 @@ ul {
     padding: 0;
 }
 
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
 .img {
+    display: flex;
     padding-bottom: 94px;
+}
+
+.img .technology + .technology {
+    margin-left: 30px;
 }
 
 .section-title {
     margin: 0;
-    margin-bottom: 50px;
     padding: 0;
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
+/* наша команда */
+
+
+/* чем мы занимаемся */
+
+.section-title {
+    color: var(--primery-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 /* наша команда */
+
+.section-command {
+    background-color: var(--section-command-bc);
+    padding-bottom: 94px;
+}
+
+.section-command .work {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.employees-list {
+    display: flex;
+
+    /* margin-bottom: 94px; */
+}
+
+.employees-list .team + .team {
+    margin-left: 30px;
+}
+
+.team {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team {
+    background-color: #FFFFFF;
+}
 
 .photo {
     margin: 0;
@@ -266,64 +345,19 @@ ul {
     padding: 0;
 }
 
-.profession {
-    margin: 0;
-    padding: 0;
-}
-
-/* чем мы занимаемся */
-
-.section-title {
-    color: var(--primery-text-color);
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
-
-.section-command {
-    background-color: var(--section-command-bc)
-}
-
-.section-command .work {
-    padding-top: 94px;
-    margin-bottom: 50px;
-}
-
-.feature-list .title {
-    color: var(--primery-text-color);
-}
-
-/* наши возможности */
-
-.title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
-
 .name {
     color: var(--primery-text-color);
     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.8;
+    text-align: center;
+}
+
+.profession {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
 }
 
 .profession {
@@ -331,7 +365,10 @@ ul {
 
     font-size: 16px;
     line-height: 1.8;
+    text-align: center;
 }
+
+/* подвал */
 
 .page-footer {
     background-color: #2F303A;
