@@ -43,7 +43,8 @@ body {
 }
 
 .page-header {
-    background-color: var(--primery-white-color)
+    background-color: var(--primery-white-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -59,9 +60,9 @@ ul {
 }
 
 .container {
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     /* outline: 2px solid tomato; */
@@ -221,13 +222,18 @@ ul {
     background-color: #E5E5E5;
 }
 
-
-
 .feature-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+ }
 
-    padding-bottom: 94px;
+.item {
+    margin-right: 30px;
+}
+
+.item:nth-child(4n) {
+    margin-right: 0;
 }
 
 .feature-list .title {
@@ -235,8 +241,8 @@ ul {
 }
 
 .feature-list .item {
-    background-color: orange;
-    width: 300px;
+    /* background-color: orange; */
+    width: 270px;
 }
 
 .title {
@@ -245,23 +251,23 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
 
-.title {
     margin: 0;
+    padding: 0;
     margin-bottom: 10px;
-    padding: 0;
 }
 
 .text {
     margin: 0;
     padding: 0;
-}
 
-.text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
+
+.text {
+    
 }
 
 .img {
@@ -378,7 +384,11 @@ ul {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
+    /* padding-left: 215px; */
+}
+
+.margin {
+    margin-bottom: 20px;
 }
 
 .auth-nav-footer .contacts-link {
@@ -399,4 +409,10 @@ ul {
 
     font-size: 14px;
     line-height: 1.7;
+
+    margin-bottom: 9px;
+}
+
+.mail {
+    margin-bottom: 9px;
 }
